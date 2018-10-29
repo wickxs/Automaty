@@ -6,12 +6,13 @@ import org.testng.annotations.Test;
 public class ChromeTest {
 
 
-    public ChromeTest(){
+    public ChromeTest() {
 
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\Zuzana Protivňaková\\Desktop\\Automatization\\Webdrivers\\chromedriver 2.43.exe");
 
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.sk/");
+
 
     }
 }
